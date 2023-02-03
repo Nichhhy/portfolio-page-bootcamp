@@ -4,10 +4,260 @@
     <meta charset="utf-8" />
 
     <link href="styles.css" rel="stylesheet" />
-
-    <title>Rocket Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nicholas</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav id="navBar">
+        <div id="navBarDiv">
+          <ol class="text">
+            <li class="fadedown-enter-done" style="transition-delay: 0ms">
+              <a href="/#about">About</a>
+            </li>
+            <li class="fadedown-enter-done" style="transition-delay: 100ms">
+              <a href="/#works">Works</a>
+            </li>
+            <li class="fadedown-enter-done" style="transition-delay: 200ms">
+              <a href="/#moreAboutMe">More About Me</a>
+            </li>
+          </ol>
+        </div>
+      </nav>
+    </header>
+    <div class="rightBar">
+      <p class="text">wongnicholas_96@hotmail.com</p>
+    </div>
+    <div class="leftBar">
+      <ul>
+        <li>
+          <a
+            href="https://github.com/Nichhhy"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noreferrer"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-github"
+            >
+              <title>GitHub</title>
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/nichhhy"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noreferrer"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-instagram"
+            >
+              <title>Instagram</title>
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/nicholas-wong-b5a484263"
+            aria-label="Linkedin"
+            target="_blank"
+            rel="noreferrer"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-linkedin"
+            >
+              <title>LinkedIn</title>
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Hero section -->
+    <section class="hero bodyPadding">
+      <p class="text">Welcome to my page</p>
+      <p class="font">I am</p>
+      <h1 class="bigFont">Nicholas Wong</h1>
+      <p class="text">
+        I build things for the web and I take picture for real life
+      </p>
+    </section>
+    <!-- About section -->
+    <section class="section1 bodyPadding" id="about">
+      <div class="innerDiv50 innerPadding">
+        <p class="text sectionHeaderText textLineHeight">About me</p>
+        <p class="text textLineHeight">
+          Hello my name is Nicholas, I just graduated from my Bachelor's of
+          Computer Science degree. Fun fact I actually majored in cyber security
+          but due to my creative nature I decided to pursue being a Software
+          engineer instead. Thus creating stuff on the Web.
+        </p>
+        <p class="text textLineHeight">
+          As a hobby I do photography, I just enjoying creating beautiful
+          looking images. I hope to one day travel the globe and capture all the
+          amazing things our earth has to offer!
+        </p>
+      </div>
+      <div class="innerDiv50 negMargin100">
+        <ul class="ulDesign">
+          <li>
+            <div class="image1">
+              <img class="smallImage" src="./Imgaes/IMG_3353.jpg" />
+            </div>
+            <div class="image2">
+              <img class="smallImage" src="./Imgaes/DSC02556.jpg" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Projects section -->
+    <section class="section2 bodyPadding" id="works">
+      <div class="innerDiv100">
+        <h1 class="bigFont center projectMargin">Works</h1>
+      </div>
+      <div>
+        <ul class="ulDesign2">
+          <li>
+            <div class="projectDiv1">
+              <img class="projectImg" src="/Imgaes/how-to-play-blackjack.png" />
+            </div>
+            <div class="projectDiv2">
+              <p class="text">Web porject</p>
+              <p class="font font24 fontBlack">Blackjack project</p>
+              <p class="text font12">
+                This is a simple backjack game built with javascript html and
+                css
+              </p>
+              <div class="icon">
+                <a
+                  href="https://github.com/Nichhhy/basics-blackjack"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noreferrer"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-github"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="projectMargin">
+            <div class="projectDiv1">
+              <img
+                class="projectImg"
+                src="/Imgaes/traditional-food-around-the-world-Travlinmad.jpg"
+              />
+            </div>
+            <div class="projectDiv2">
+              <p class="text">Web porject</p>
+              <p class="font font24 fontBlack">Recipe Site</p>
+              <p class="text font12">
+                This is a simple project that has 1 recipe for asian food and 3
+                western food recipes.
+              </p>
+              <div class="icon">
+                <a
+                  href="https://github.com/Nichhhy/recipe-site-bootcamp"
+                  aria-label="GitHub"
+                  target="_blank"
+                  rel="noreferrer"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-github"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- photostuff section -->
+    <section class="section2 bodyPadding topPadding" id="moreAboutMe">
+      <div class="innerPadding projectMargin">
+        <p class="text sectionHeaderText2 textLineHeight center">
+          More Stuff About me
+        </p>
+        <p class="text textLineHeight center">I love coffee</p>
+        <div class="center">
+          <img
+            class="smallImage"
+            src="./Imgaes/DCDB5433-8DE9-4D9A-BA4C-0A67D1830563-35888-00001119DCF388BB.jpg"
+          />
+
+          <img class="smallImage" src="./Imgaes/DSC06693.jpg" />
+          <br />
+          <img class="smallImage" src="./Imgaes/IMG_2829_jpg.jpg" />
+
+          <img class="smallImage" src="./Imgaes/IMG_2842_jpg.jpg" />
+
+          <img class="smallImage" src="./Imgaes/IMG_3096.jpg" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
